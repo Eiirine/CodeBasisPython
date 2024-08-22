@@ -10,4 +10,4 @@ print('- Did Joffrey agree?\n- He did. He also said \"I love using \\n\".')
 print('Winter' + ' came for the House of Frey.')
 
 #Используя пример выше и таблицу, выведите на экран (каждый на своей собственной строке) ~, ^ и %.
-print(chr(126)); print(chr(94)); print(chr(37));
+print(chr(126)); print(chr(94)); print(chr(37))

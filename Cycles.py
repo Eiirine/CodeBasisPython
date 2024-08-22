@@ -6,6 +6,7 @@ def print_numbers(last_number):
         last_number = last_number - 1
     print('finished!')
 
+
 #Реализуйте функцию multiply_numbers_from_range(), которая принимает два числа, границы диапазона, и перемножает числа в нем, включая границы диапазона.
 def multiply_numbers_from_range(start, finish):
     i = start
@@ -15,13 +16,14 @@ def multiply_numbers_from_range(start, finish):
         i = i + 1
     return multiply
 
+
 #Реализуйте функцию join_numbers_from_range(), которая объединяет все числа из переданного диапазона в строку.
 def join_numbers_from_range(start, finish):
     result = str(start)
     i = start + 1
     while i <= finish:
         result = result + str(i)
-        i = i +1
+        i = i + 1
     return result
 
 #

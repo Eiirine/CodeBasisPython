@@ -11,7 +11,7 @@ first_name = '  Grigor   \n'
 print(first_name.strip())
 # END
 
-#Найдите символы N и , (запятая) внутри текста в переменной text. Выведите на экран их индексы.
+#Найдите символы N и, (запятая) внутри текста в переменной text. Выведите на экран их индексы.
 text = 'Never forget what you are, for surely the world will not'
 # BEGIN (write your solution here)
 print('Index Of N: ' + str(text.find('N')) + '\n' + 'Index Of ,: ' + str(text.find(',')))

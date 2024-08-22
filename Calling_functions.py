@@ -17,7 +17,6 @@ print(hex_number)
 
 #Округлите число, записанное в переменную number, до двух знаков после запятой и выведите результат на экран.
 number = 10.1234
-
 # BEGIN (write your solution here)
 result = round(number, 2)
 print(result)
@@ -43,7 +42,7 @@ print(min(3, 10, 22, -3, 0))
 # imports are studied on Hexlet
 from random import random
 # BEGIN (write your solution here)
-print(round(random() * 10));
+print(round(random() * 10))
 # END
 
 #Выведите на экран тип значения переменной motto.

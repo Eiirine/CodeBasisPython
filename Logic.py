@@ -13,10 +13,10 @@ def is_international_phone(number):
     first_symbol = number[0]
     return first_symbol == '+'
 
-#Реализуйте функцию is_leap_year(), которая принимает год в форме числа и определяет является ли он високосным или нет.
+#Реализуйте функцию is_leap_year(), которая принимает год в форме числа и определяет, является ли он високосным или нет.
 #Год будет високосным, если он кратен (то есть делится без остатка) 400 или он одновременно кратен 4 и не кратен 100.
 def is_leap_year(year):
-    return (year % 400 == 0 or year % 4 == 0 and year % 100 != 0)
+    return year % 400 == 0 or year % 4 == 0 and year % 100 != 0
 
 #В этом уроке вам нужно будет реализовать две функции is_palindrome() и is_not_palindrome(), принимающие строку на вход
 def is_palindrome(word):
